@@ -3,7 +3,6 @@ layout: single
 title: "About: "
 permalink: /about/
 author_profile: true
-date: 2019-02-15
 header-includes: |
     \usepackage{amsmath,mathtools}
 ---
