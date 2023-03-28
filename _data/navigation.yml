@@ -1,9 +1,8 @@
 main:
   - title: "Inicio"
     url: /
-  - title: "Post"
-    url: /year-archive/
-    url: /categories/
+  - title: "Buscador"
+    url: /buscador/
   - title: "About"
     url: /about/
 #  - title: "Acerca de"
