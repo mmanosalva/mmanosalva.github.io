@@ -24,7 +24,7 @@ This is a LaTeX setup guide for Sublime Text with LaTeXTools. In this repository
 - [GitHub Repository](https://github.com/mmanosalva/SublimeTeX)
 
 
-  <center> <img src="/assets/images/1/Images/Workstation.png" width="70%" heigth="70%"> </center>
+  <center> <img src="/assets/images/1/Images/Workstation.png" width="90%" heigth="90%"> </center>
 
 
 
@@ -41,7 +41,7 @@ This is a LaTeX setup guide for Sublime Text with LaTeXTools. In this repository
 - Install Sumatra first and then MiKTeX and then ImageMagick. Finally install Sublime Text. Make sure that ImageMagick is added to the Windows Path during installation. The option should be checked during installation. Additionally, SumatraPDF must also be added to the Path. However, you must do this manually by finding the installation folder of SumatraPDF and adding it to the Path.
   
 
-    <center> <img src="/assets/images/1/Images/Path.png" width="60%" heigth="60%"> </center>
+    <center> <img src="/assets/images/1/Images/Path.png" width="80%" heigth="80%"> </center>
 
 
  If you don't see ImageMagick in the Windows Path, add it manually by copying the path and pasting it, just like with Sumatra.
@@ -51,7 +51,7 @@ This is a LaTeX setup guide for Sublime Text with LaTeXTools. In this repository
   * Go to Packages and install "preview" and "mathtools" as below:
   
 
-     <center> <img src="/assets/images/1/Images/Miktex.png" width="60%" heigth="60%"> </center>
+     <center> <img src="/assets/images/1/Images/Miktex.png" width="80%" heigth="80%"> </center>
 
 
    * You should type the names of the packages in the selected part.
@@ -63,7 +63,7 @@ This is a LaTeX setup guide for Sublime Text with LaTeXTools. In this repository
 
 Also, it may be recommended to enable automatic package installation: Go to Setting
 
-  <center> <img src="/assets/images/1/Images/Conf.png" width="45%" heigth="45%"> </center>
+  <center> <img src="/assets/images/1/Images/Conf.png" width="70%" heigth="70%"> </center>
 
 # Sublime Configs
 
@@ -208,7 +208,7 @@ The color i'm using is for Ayu-Dark.
 
 To build your LaTeX project, press `Ctrl+Shift+B` and select PDFLaTeX or LuaLaTeX or XeLaTeX depending on which compiler your project requires.
 
-  <center> <img src="/assets/images/1/Images/Compilers.png" width="40%" heigth="40%"> </center>
+  <center> <img src="/assets/images/1/Images/Compilers.png" width="70%" heigth="70%"> </center>
 
  If you don't use those you can maybe have problems with biblatex.
 
@@ -222,11 +222,11 @@ To compile the project, you need to do it from the main file of the project (for
 
 For example: This project
 
-  <center> <img src="/assets/images/1/Images/Project.png" width="60%" heigth="60%"> </center>
+  <center> <img src="/assets/images/1/Images/Project.png" width="80%" heigth="80%"> </center>
 
 If you're working on the 2.5.tex file and want to compile the entire project from there, you need to add %!TEX root = main.tex to the first line, as shown below:
 
-  <center> <img src="/assets/images/1/Images/Example.png" width="60%" heigth="60%"> </center>
+  <center> <img src="/assets/images/1/Images/Example.png" width="80%" heigth="80%"> </center>
 
 The first line of code doesn't affect our project as it is a comment. What it does is tell LatexTools to compile the main.tex file instead of the 2.5.tex file. If your main file isn't named main, you can edit the line of code with the name of your file.
 
@@ -335,7 +335,7 @@ The procedure is similar for autocorrection in English, however, you will need t
 
 With this project you will be able to see your equations without compile:
 
-  <center> <img src="/assets/images/1/Images/Previeww.png" width="60%" heigth="60%"> </center>
+  <center> <img src="/assets/images/1/Images/Previeww.png" width="80%" heigth="80%"> </center>
 
 If you see the resolution of the preview is too low go to: `Preferences -> Package Settings -> LaTeXTools-> Settings-User` and then search for the line "preview_math_density", you can change values and prove some resolutions and pixeles density if you want, this is my config for my screen (2160x1440p):
 
