@@ -15,7 +15,7 @@ header-includes: |
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[es].recent_posts | default: "¡POST RECIENTES!" }}</h3>
+<h3 class="archive__subtitle">{{ site.data.ui-text[es].recent_posts | default: "RECENT POST:" }}</h3>
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}
