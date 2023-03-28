@@ -1,5 +1,6 @@
 ---
 layout: search
+author_profile: true
 title: "Buscador general de palabras clave"
 permalink: /buscador/
 date: 2020-01-29
