@@ -30,5 +30,10 @@ At the moment, I am focused on learning a lot of academic subjects of all kinds 
   <img src="/assets/images/Avatar.jpg" alt="tu-imagen" style="width: 100%; height: 100%;">
 </div>
 
+$$L(s, \chi)=\sum_{n=1}^{\infty} \frac{\chi(n)}{n^s}$$
 
+# Contact: 
+
+* mmanosalva@unal.edu.co
+* matemano6@gmail.com
 
