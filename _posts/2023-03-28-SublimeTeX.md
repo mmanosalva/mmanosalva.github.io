@@ -208,7 +208,7 @@ The color i'm using is for Ayu-Dark.
 
 To build your LaTeX project, press `Ctrl+Shift+B` and select PDFLaTeX or LuaLaTeX or XeLaTeX depending on which compiler your project requires.
 
-  <center> <img src="/assets/images/1/Images/Compilers.png" width="70%" heigth="70%"> </center>
+  <center> <img src="/assets/images/1/Images/Compilers.png" width="65%" heigth="65%"> </center>
 
  If you don't use those you can maybe have problems with biblatex.
 

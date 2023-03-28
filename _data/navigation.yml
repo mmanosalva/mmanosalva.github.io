@@ -1,7 +1,7 @@
 main:
-  - title: "Inicio"
+  - title: "Home"
     url: /
-  - title: "Buscador"
+  - title: "Search"
     url: /buscador/
   - title: "About"
     url: /about/
