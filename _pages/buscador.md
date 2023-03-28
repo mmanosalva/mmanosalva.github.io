@@ -1,7 +1,7 @@
 ---
 layout: search
 author_profile: true
-title: "Buscador general de palabras clave"
+title: "Search: "
 permalink: /buscador/
 date: 2023-03-28
 header-includes: |
