@@ -24,7 +24,7 @@ This is a LaTeX setup guide for Sublime Text with LaTeXTools. In this repository
 - [GitHub Repository](https://github.com/mmanosalva/SublimeTeX)
 
 
-  <center> <img src="/assets/images/1/Images/Workstation.png" width="90%" heigth="90%"> </center>
+<center> <img src="/assets/images/1/Images/Workstation.png" width="90%" heigth="90%"> </center>
 
 
 
