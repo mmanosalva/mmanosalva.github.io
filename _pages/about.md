@@ -1,10 +1,10 @@
 ---
 title: "Acerca de"
 permalink: /about/
-author_profile: true
 date: 2019-02-15
 header-includes: |
     \usepackage{amsmath,mathtools}
+author_profile: true
 ---
 
 <script
@@ -26,6 +26,6 @@ At the moment, I am focused on learning a lot of academic subjects of all kinds 
 
 
 <div style="width: 250px; height: 250px; border-radius: 50%; overflow: hidden; margin: 0 auto;">
-  <img src="/assets/images/avatar.jpg" alt="tu-imagen" style="width: 100%; height: 100%;">
+  <img src="/assets/images/Avatar.jpg" alt="tu-imagen" style="width: 100%; height: 100%;">
 </div>
 
