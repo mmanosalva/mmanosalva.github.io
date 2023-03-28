@@ -3,7 +3,7 @@ layout: search
 author_profile: true
 title: "Buscador general de palabras clave"
 permalink: /buscador/
-date: 2020-01-29
+date: 2023-03-28
 header-includes: |
     \usepackage{amsmath,mathtools}
 ---
