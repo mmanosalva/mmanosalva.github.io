@@ -12,7 +12,7 @@ author_profile: true
   type="text/javascript">
 </script>
 
-<div style="margin-left: 0.5cm;margin-right: 0.5cm;margin-bottom:0.5cm;">
+<div style="margin-left: 0.5cm;margin-right: 0.5cm;margin-bottom:0.5cm;margin-top:0.5cm;">
 I am a mathematics student at the UNAL campus in Bogotá. My interests are number theory, cryptography, and algebra, particularly number theory in all its presentations. I also enjoy analysis, although not as a primary focus. Given the wide range of academic topics that interest me and in which I would like to work, I can contribute analysis to problems from many perspectives.
 
 
