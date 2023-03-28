@@ -2,6 +2,7 @@
 layout: single
 title: "About: "
 permalink: /about/
+date: 2023-03-28
 author_profile: true
 header-includes: |
     \usepackage{amsmath,mathtools}
@@ -13,7 +14,7 @@ header-includes: |
 </script>
 
 <div style="margin-left: 0.5cm;margin-right: 0.5cm;margin-bottom:0.5cm;margin-top:0.5cm;">
-I am a mathematics student at the UNAL campus in Bogotá. My interests are number theory, cryptography, and algebra, particularly number theory in all its presentations. I also enjoy analysis, although not as a primary focus. Given the wide range of academic topics that interest me and in which I would like to work, I can contribute analysis to problems from many perspectives.
+I am a mathematics student in UNAL - Bogotá. My interests are number theory, cryptography, and algebra, particularly number theory in all its presentations. I also enjoy analysis, although not as a primary focus. Given the wide range of academic topics that interest me and in which I would like to work, I can contribute analysis to problems from many perspectives.
 
 
 </div>
@@ -28,4 +29,6 @@ At the moment, I am focused on learning a lot of academic subjects of all kinds 
 <div style="width: 250px; height: 250px; border-radius: 50%; overflow: hidden; margin: 0 auto;">
   <img src="/assets/images/Avatar.jpg" alt="tu-imagen" style="width: 100%; height: 100%;">
 </div>
+
+
 
