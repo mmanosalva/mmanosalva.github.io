@@ -1,6 +1,7 @@
 ---
-title: "Acerca de"
+title: "About"
 permalink: /about/
+layout: about
 author_profile: true
 date: 2019-02-15
 header-includes: |
