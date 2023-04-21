@@ -25,10 +25,12 @@ I am a mathematics student in UNAL - Bogotá. My interests are number theory, cr
 
 <div style="margin-left: 0.5cm;margin-right: 0.5cm;margin-bottom:0.5cm">
 
-At the moment, I am focused on learning a lot of academic subjects of all kinds (particularly ML and Data Science) with the purpose of being very versatile and able to work in many areas. Here, I will upload publications on both mathematics and my personal programming projects, as well as solutions to the guide texts used in some of the courses at UNAL in the mathematics program. Many of my projects are also done with my friends and study partners, to whom I always express my gratitude for their collaboration and support.
+At the moment, I am focused on learning a lot of academic subjects of all kinds with the purpose of being very versatile and able to work in many areas. Here, I will upload publications on both mathematics and my personal programming projects, as well as solutions to the guide texts used in some of the courses at UNAL in the mathematics program. Many of my projects are also done with my friends and study partners, to whom I always express my gratitude for their collaboration and support.
 </div>
 
-# ... :
+# Solutions Manuals:
+* https://github.com/mmanosalva/Introduccion-a-la-teoria-de-la-computacion
+* https://github.com/mmanosalva/Introduccion-al-analisis-real
 
 $$L(s, \chi)=\sum_{n=1}^{\infty} \frac{\chi(n)}{n^s}$$
 
