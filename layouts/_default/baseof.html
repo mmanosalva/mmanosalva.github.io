@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>
+      {{ .Page.Title }} | ejmastnak
+    </title>
+
+    <meta
+      name="description"
+      content="{{ if .Params.description }}{{ .Params.description }}{{ end }}"
+    />
+
+    <!-- CSS compilation settings -->
+    {{ if hugo.IsProduction }}
+    {{ $styles := resources.Get "css/tailwind.css" }}
+    {{ $styles = $styles | resources.PostCSS }}
+    {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+    {{ else }}
+    <!-- Use manually compiled stylesheet for local development -->
+    {{ $styles := resources.Get "css/main.css" }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}">
+    {{ end }}
+    <!-- ------------------------------------------------------- -->
+
+    <!-- Set dark theme if user preferences are saved in storage  -->
+    <script>
+    if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+    </script>
+
+    <!-- Dark/light theme toggle logic -->
+    {{ $themeswitchjs := resources.Get "js/theme-switch.js" }}
+    <script defer src="{{ $themeswitchjs.RelPermalink }}"></script>
+    <!-- ------------------------------------------------------- -->
+
+    <!-- Favicon settings -->
+    <!-- ------------------------------------------------------- -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+      <!-- ------------------------------------------------------- -->
+
+      <!-- Load KaTeX on math pages -->
+      {{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
+
+  </head>
+  <!-- Background color to match GIF backgrounds in Vim-LaTeX tutorial -->
+  <body class="leading-normal font-md text-gray-700 dark:text-gray-300 bg-neutral-50 dark:bg-gray-900">
+    <div class="max-w-[800px] mx-auto pt-2 sm:pt-6 pb-8 px-4 sm:px-8">
+
+      <nav class="w-full -ml-2 mb-6 flex items-center">
+        {{ partial "topnav.html" . }}
+        <div class="ml-3">
+          {{ partial "theme-switch.html" . }}
+        </div>
+      </nav>
+
+      <div class="px-1">
+        {{ block "main" . }}
+        {{ end }}
+      </div>
+
+    </div>
+  </body>
+</html>
