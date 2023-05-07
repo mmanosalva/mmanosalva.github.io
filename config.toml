@@ -1,0 +1,16 @@
+baseURL = "mmanosalva.github.io"
+languageCode = 'en-us'
+title = 'mmanosalva'
+disableKinds = ['taxonomy', 'term', 'section']
+
+[markup]
+  [markup.highlight]
+      noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+enableGitInfo = true
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
