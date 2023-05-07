@@ -1,10 +1,14 @@
-public
-resources
-node_modules
-.hugo_build.lock
-
-# Result of compiling Tailwind CSS
-assets/css/main.css
-
+_site
 TODO.md
+
+*.bak
+
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+Gemfile.lock
+.DS_Store
+.tasks
 .root
