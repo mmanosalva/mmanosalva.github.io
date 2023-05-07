@@ -1,0 +1,10 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Search"
+    url: /buscador/
+  - title: "About"
+    url: /about/
+#  - title: "Acerca de"
+#    url: /about/
+
